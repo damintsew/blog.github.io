@@ -1,8 +1,8 @@
-layout: post
-title: "POST"
-date: YYYY-MM-DD hh:mm:ss -0000
-categories: CATEGORY-1 CATEGORY-2
-
+---
+layout: default
+comments: true
+title: How to write post in github pages
+---
 
 Test test
 
