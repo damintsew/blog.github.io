@@ -18,25 +18,31 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: ''
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Andrey Damintsev's space
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://damintsew.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: Minimbl
+github_username:  damintsew
 
 # Build settings
-#theme: minima
-#theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -57,3 +63,45 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Site Author
+author:
+  name: Damintsev Andrey
+  picture: /images/avatar.jpeg
+  email:
+  twitter: Minimbl
+  links:
+    - title: Twitter
+      url: https://twitter.com/Minimbl
+      icon: fab fa-twitter-square
+#    - title: Instagram
+#      url: https://instagram.com/mmistakes
+#      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/damintsew
+      icon: fab fa-github-square
+
+# Footer Links
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/Minimbl
+    icon: fab fa-twitter-square
+#  - title: Instagram
+#    url: https://instagram.com/mmistakes
+#    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/damintsew
+    icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
+
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: post
+      comments: true
+      share: true
