@@ -64,6 +64,7 @@ google_fonts:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+google_analytics: G-0684MZ94SE
 # Site Author
 author:
   name: Damintsev Andrey
