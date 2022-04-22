@@ -8,4 +8,4 @@ author_profile: true
 #### Quick bio:
 
 Hello, my name is Andrei Damintsev. I am a team lead / senior java developer. I have worked in different companies with different
-projects worked with JavaScript / Python, implemented Telegramm bots.   
+projects worked with JavaScript / Python, implemented Telegram bots.   
