@@ -21,7 +21,7 @@
 title: ''
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Andrey Damintsev's space
+#  Andrey Damintsev's space
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://damintsew.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Minimbl
@@ -36,7 +36,6 @@ plugins:
 
 category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
-
 
 google_fonts:
   - name: "Source Sans Pro"
